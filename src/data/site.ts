@@ -65,7 +65,7 @@ export const about = {
 export const skills = [
   {
     group: 'Languages',
-    items: ['Python', 'TypeScript', 'JavaScript', 'Java', 'SQL', 'C++', 'Swift', 'HTML/CSS'],
+    items: ['Python', 'TypeScript', 'JavaScript', 'Java', 'SQL', 'C++', 'HTML/CSS'],
   },
   {
     group: 'Frameworks & Tools',
@@ -100,7 +100,6 @@ export const projects: Project[] = [
       'Marketing site for a Brazilian Jiu-Jitsu gym, live in production. Data-driven content system with a single source-of-truth config, centralized design tokens, a scroll-snap coaches carousel, and an animated testimonials deck with reduced-motion support.',
     tech: ['React', 'TypeScript', 'Vite'],
     live: 'https://carlsongracie-irvine.com',
-    repo: 'https://github.com/pianodre/Carlson-Gracie-Irvine',
   },
   {
     title: 'Music Theory Trainer',
@@ -122,7 +121,7 @@ export const projects: Project[] = [
     description:
       'Breach-scanning application aggregating results from APIs covering 2,000+ breach databases for real-time exposure analysis, with JWT authentication, role-based access control, and audit logging. Deployed on AWS with Docker for internal sales and engineering use.',
     tech: ['Python', 'Flask', 'React', 'PostgreSQL', 'Docker'],
-    repo: 'https://github.com/pianodre/TRST-scanner',
+    privateNote: 'Internal company tool',
   },
 ]
 
