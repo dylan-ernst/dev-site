@@ -40,7 +40,9 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 84px; /* keep anchored sections clear of the sticky header */
+  /* Sections carry ~80px of internal top padding, so anchors land with the
+     section top tucked under the fixed header and the title near the top. */
+  scroll-padding-top: 20px;
 }
 
 body {
@@ -83,6 +85,20 @@ img {
 @media (max-width: 720px) {
   .section {
     padding: 60px 0;
+  }
+  .section-title {
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrap {
+    padding: 0 18px;
+  }
+  .btn {
+    padding: 13px 20px;
+    flex: 1 1 auto;
+    justify-content: center;
   }
 }
 
@@ -414,6 +430,17 @@ img {
   border-color: var(--white);
 }
 
+@media (max-width: 480px) {
+  .hero__cta {
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+  .hero__tagline {
+    font-size: 0.95rem;
+    margin-bottom: 32px;
+  }
+}
+
 /* ============================================================
    About
    ============================================================ */
@@ -494,11 +521,17 @@ img {
 @media (max-width: 820px) {
   .about__grid {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 32px;
   }
   .skills__group {
     flex-direction: column;
     gap: 14px;
+  }
+  .skills__label {
+    flex: none; /* 180px flex-basis would become height in column direction */
+  }
+  .fact {
+    padding: 15px 18px;
   }
 }
 
@@ -614,6 +647,10 @@ img {
 @media (max-width: 720px) {
   .projects__grid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .project {
+    padding: 22px;
   }
 }
 
@@ -694,6 +731,15 @@ img {
 
 .exp__bullets li::marker {
   color: var(--ink-500);
+}
+
+@media (max-width: 720px) {
+  .exp__list {
+    gap: 16px;
+  }
+  .exp {
+    padding: 22px;
+  }
 }
 
 .exp__tags {
