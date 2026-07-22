@@ -18,6 +18,14 @@ export function Hero() {
           <a href="#projects" className="btn btn--primary">
             View My Work
           </a>
+          <a
+            href={identity.resume}
+            className="btn btn--ghost"
+            target="_blank"
+            rel="noreferrer"
+          >
+            My Resume
+          </a>
           <a href="#contact" className="btn btn--ghost">
             Get in Touch
           </a>

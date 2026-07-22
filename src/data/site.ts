@@ -44,6 +44,7 @@ export const identity = {
   email: 'dylanernstr@gmail.com',
   phone: '(949) 933-3607',
   github: 'https://github.com/pianodre',
+  resume: 'https://github.com/pianodre/resume',
   // Set when the exact profile URL is confirmed — the link renders only if non-empty
   linkedin: '',
   pianoSite: 'https://dylanernst.site',
