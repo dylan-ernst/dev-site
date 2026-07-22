@@ -94,6 +94,22 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: 'Jiujitsu Manager',
+    tagline: 'BJJ School Management Platform',
+    description:
+      'Multi-tenant management platform for Brazilian Jiu-Jitsu gyms, live in production. Role-based access (User / Admin / Owner) with per-gym data isolation enforced by row-level security, a structured white-belt curriculum, weekly focus posts, and a technique library with a personal → pending → approved submission workflow and multi-video references. Also ships staff-built technique-chain flowcharts on a custom pan-and-zoom SVG graph engine, a class schedule, and a training-consistency heatmap.',
+    tech: ['React', 'TypeScript', 'Supabase', 'Tailwind CSS', 'React Router'],
+    live: 'https://pianodre.github.io/Jiujitsu-Manager/',
+  },
+  {
+    title: 'Gym Tracker',
+    tagline: 'Offline-First Workout PWA',
+    description:
+      'Installable workout-tracking PWA with an offline service worker and multi-user accounts, each isolated by row-level security. Logs lifting, cardio, and checkbox-style sessions across three tracking modes, with streak logic, personal records, a muscle-recovery map, an editable up-next queue, and a friends system for sharing and copying workout days. Account creation is gated by a server-enforced signup PIN.',
+    tech: ['React', 'TypeScript', 'Supabase', 'Tailwind CSS', 'PWA'],
+    live: 'https://pianodre.github.io/Gym-Tracker/',
+  },
+  {
     title: 'Carlson Gracie Irvine',
     tagline: 'Production Gym Website',
     description:
@@ -105,7 +121,7 @@ export const projects: Project[] = [
     title: 'Music Theory Trainer',
     tagline: 'Cross-Platform Education App',
     description:
-      'Music-theory app with 16 interactive drill games and a 31-lesson curriculum, designed from my own piano-teaching practice. Includes a custom music-notation rendering engine built from scratch in SVG — staves, clefs, key signatures, and chord engraving. Ships to iOS, Android, and web from one codebase.',
+      'Music-theory app with 16 interactive drill games and a 31-lesson curriculum, designed from my own piano-teaching practice and now used by over 15 students across two studios. Includes a custom music-notation rendering engine built from scratch in SVG — staves, clefs, key signatures, and chord engraving. Ships to iOS, Android, and web from one codebase.',
     tech: ['React Native', 'Expo', 'TypeScript'],
   },
   {
