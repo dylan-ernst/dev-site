@@ -43,8 +43,8 @@ export const identity = {
   location: 'Orange County, CA',
   email: 'dylanernstr@gmail.com',
   phone: '(949) 933-3607',
-  github: 'https://github.com/pianodre',
-  resume: 'https://github.com/pianodre/resume',
+  github: 'https://github.com/dylan-ernst',
+  resume: 'https://github.com/dylan-ernst/resume',
   // Set when the exact profile URL is confirmed — the link renders only if non-empty
   linkedin: '',
   pianoSite: 'https://dylanernst.site',
@@ -100,7 +100,7 @@ export const projects: Project[] = [
     description:
       'Multi-tenant management platform for Brazilian Jiu-Jitsu gyms, live in production. Role-based access (User / Admin / Owner) with per-gym data isolation enforced by row-level security, a structured white-belt curriculum, weekly focus posts, and a technique library with a personal → pending → approved submission workflow and multi-video references. Also ships staff-built technique-chain flowcharts on a custom pan-and-zoom SVG graph engine, a class schedule, and a training-consistency heatmap.',
     tech: ['React', 'TypeScript', 'Supabase', 'Tailwind CSS', 'React Router'],
-    live: 'https://pianodre.github.io/Jiujitsu-Manager/',
+    live: 'https://dylan-ernst.github.io/Jiujitsu-Manager/',
   },
   {
     title: 'Gym Tracker',
@@ -108,7 +108,7 @@ export const projects: Project[] = [
     description:
       'Installable workout-tracking PWA with an offline service worker and multi-user accounts, each isolated by row-level security. Logs lifting, cardio, and checkbox-style sessions across three tracking modes, with streak logic, personal records, a muscle-recovery map, an editable up-next queue, and a friends system for sharing and copying workout days. Account creation is gated by a server-enforced signup PIN.',
     tech: ['React', 'TypeScript', 'Supabase', 'Tailwind CSS', 'PWA'],
-    live: 'https://pianodre.github.io/Gym-Tracker/',
+    live: 'https://dylan-ernst.github.io/Gym-Tracker/',
   },
   {
     title: 'Carlson Gracie Irvine',
